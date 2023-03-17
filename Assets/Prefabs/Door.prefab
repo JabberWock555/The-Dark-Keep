@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6238033235264866438}
   - component: {fileID: 3988832620613429997}
   - component: {fileID: 2737906955399240927}
-  - component: {fileID: 8354275054986853777}
+  - component: {fileID: 4399566419277663126}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -127,11 +127,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  keyManager: {fileID: 0}
   animator: {fileID: 0}
   gate:
     gateNo: 0
+    gateType: 0
     destination: {fileID: 5658356766721306049}
---- !u!95 &8354275054986853777
+--- !u!95 &4399566419277663126
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -141,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 6823399228678156552}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5df6f5ec903934ce19f2ca8a8c664d26, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b4f02b3f2f76428580d60ff3fd73f43, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
