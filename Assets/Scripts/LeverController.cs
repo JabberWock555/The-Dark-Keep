@@ -15,16 +15,29 @@ public class LeverController : MonoBehaviour
         animator.enabled = false;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Lever Detected");
+            inRange = true;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Lever Detected");
             inRange = true;
         }
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            leverEvent.Invoke();
+        }
         if (inRange)
         {
             if (Input.GetKeyDown(KeyCode.Space))
