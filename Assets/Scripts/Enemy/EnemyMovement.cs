@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private GameObject enemy;
-    [SerializeField] private float speed;
-    [SerializeField] private int health = 50;
-    [SerializeField] private int damage = 5;
+    [SerializeField] protected float speed;
+    [SerializeField] protected int health = 50;
+    [SerializeField] protected int damage = 5;
     private EnemyDeath enemyDeath;
-    private Animator animator;
+    protected Animator animator;
     private bool isMovingRight;
 
     private void Awake()
@@ -19,12 +18,12 @@ public class EnemyMovement : MonoBehaviour
     }
     private void Update()
     {
-        Movement();
+        Movement(isMovingRight);
     }
 
-    private void Movement()
+    protected void Movement(bool isRight)
     {
-        if (isMovingRight)
+        if (isRight)
         {
             transform.localScale = new Vector2(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
             transform.Translate(Vector3.right * speed * Time.deltaTime);
@@ -70,7 +69,7 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
-    private void TakeHit(int _damage)
+    protected void TakeHit(int _damage)
     {
         if (health > 0)
         {

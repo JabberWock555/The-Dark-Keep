@@ -34,7 +34,8 @@ public enum KeyType
 {
     Key_Gate0,
     Key_Gate1,
-    Key_Gate2
+    Key_Gate2,
+    Key_Prison
 }
 public enum LeverType
 {
