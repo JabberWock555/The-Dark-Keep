@@ -11,6 +11,8 @@ TagManager:
   - Spider
   - Goop
   - Ghost
+  - coin
+  - potion
   layers:
   - Default
   - TransparentFX
