@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class Gates : MonoBehaviour
+public class Gates : MonoBehaviour 
 {
     [SerializeField]private PlayerController player;
     [SerializeField] private Keys keyManager;
@@ -26,6 +26,7 @@ public class Gates : MonoBehaviour
                     {
                         SetGateStatus(gate.gateNo, GateStatus.Open);
                         StartCoroutine(Transport());
+                        ChangeRoom(GetGateNo());
                     }
                     else
                     {
@@ -37,6 +38,7 @@ public class Gates : MonoBehaviour
                     if(GetGateStatus(gate.gateNo) == GateStatus.Open)
                     {
                         StartCoroutine(Transport());
+                        ChangeRoom(GetGateNo());
                     }
                     else
                     {
@@ -47,19 +49,19 @@ public class Gates : MonoBehaviour
                 case GateType.none:
                     SetGateStatus(gate.gateNo, GateStatus.Open);
                     StartCoroutine(Transport());
+                    ChangeRoom(GetGateNo());
+                    break;
+                default:
+                    Debug.Log("Locked");
                     break;
             }
-        }
-        else
-        {
-            Debug.Log("Locked");
         }
     }
 
     private IEnumerator Transport()
     {
         animator.SetBool("DoorOpen", true);
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         player.transform.position = gate.destination.position;
         animator.SetBool("DoorOpen", false);
     }
@@ -78,6 +80,53 @@ public class Gates : MonoBehaviour
     public void SetGateStatus(GatesNo _gateNo, GateStatus _gateStatus)
     {
         PlayerPrefs.SetInt(_gateNo.ToString(), (int)_gateStatus);
+    }
+    public void ChangeRoom(GatesNo exitGate)
+    {
+        switch (exitGate)
+        {
+            case GatesNo.Gate0:
+                player.RoomEnter = RoomNo.Room1;
+                player.RoomExit = RoomNo.Room0;
+                break;
+            case GatesNo.Gate1:
+                player.RoomEnter = RoomNo.Room0;
+                player.RoomExit = RoomNo.Room1;
+                break;
+            case GatesNo.Gate2:
+                player.RoomEnter = RoomNo.Room2;
+                player.RoomExit = RoomNo.Room1;
+                break;
+            case GatesNo.Gate3:
+                player.RoomEnter = RoomNo.Room1;
+                player.RoomExit = RoomNo.Room2;
+                break;
+            case GatesNo.Gate4:
+                player.RoomEnter = RoomNo.Room3;
+                player.RoomExit = RoomNo.Room1;
+                break;
+            case GatesNo.Gate5:
+                player.RoomEnter = RoomNo.Room1;
+                player.RoomExit = RoomNo.Room3;
+                break;
+            case GatesNo.Gate6:
+                player.RoomEnter = RoomNo.Room4;
+                player.RoomExit = RoomNo.Room3;
+                break;
+            case GatesNo.Gate7:
+                player.RoomEnter = RoomNo.Room3;
+                player.RoomExit = RoomNo.Room4;
+                break;
+            case GatesNo.Gate8:
+                player.RoomEnter = RoomNo.Room5;
+                player.RoomExit = RoomNo.Room1;
+                break;
+            case GatesNo.Gate9:
+                player.RoomEnter = RoomNo.Room1;
+                player.RoomExit = RoomNo.Room5;
+                break;
+        }
+        player.roomChanged = true;
     }
 }
 
