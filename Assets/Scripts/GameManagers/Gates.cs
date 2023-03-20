@@ -13,7 +13,15 @@ public class Gates : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        SetGateStatus(gate.gateNo, GateStatus.Locked);
+        if (gate.gateNo == GatesNo.SpawnDoor)
+        {
+            SetGateStatus(gate.gateNo, GateStatus.Open);
+            StartCoroutine(Transport());
+        }
+        else
+        {
+            SetGateStatus(gate.gateNo, GateStatus.Locked);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,10 +36,11 @@ public class Gates : MonoBehaviour
                         SetGateStatus(gate.gateNo, GateStatus.Open);
                         StartCoroutine(Transport());
                         ChangeRoom(GetGateNo());
+                        UiManager.ShowMsg("Gate Opened");
                     }
                     else
                     {
-                        Debug.Log("Wrong Key");
+                        UiManager.ShowMsg("Wrong Key");
                     }
                     break;
 
@@ -43,7 +52,7 @@ public class Gates : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Open with Lever");
+                        UiManager.ShowMsg("Open with Lever");
                     }
                     break;
 
@@ -53,7 +62,7 @@ public class Gates : MonoBehaviour
                     ChangeRoom(GetGateNo());
                     break;
                 default:
-                    Debug.Log("Locked");
+                    UiManager.ShowMsg("Locked");
                     break;
             }
         }
@@ -141,6 +150,7 @@ public class GateDestination
 
 public enum GatesNo
 {
+    SpawnDoor,
     Gate0,
     Gate1,
     Gate2,

@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         Health = 100;
         rb = GetComponent<Rigidbody2D>();
         animator.SetBool("IsAlive", true);
-
+        key = KeyType.Key_Prison;
     }
 
     private void Update()
