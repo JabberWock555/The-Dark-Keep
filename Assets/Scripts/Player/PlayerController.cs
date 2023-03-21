@@ -6,7 +6,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public int Health { get; set; }
-    public int Score { get; set; }
 
     [SerializeField] private Animator animator;
     [SerializeField] private float speed;
@@ -22,14 +21,14 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public RoomNo RoomEnter;
     [HideInInspector] public RoomNo RoomExit;
     [HideInInspector] public bool roomChanged = false;
+    internal bool win;
 
     private void Awake()
     {
-        Score = 0;
         Health = 100;
         rb = GetComponent<Rigidbody2D>();
         animator.SetBool("IsAlive", true);
-
+        key = KeyType.Key_Prison;
     }
 
     private void Update()
@@ -143,7 +142,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("coin"))
         {
             Debug.Log("Coin Collected");
-            Score += 5;
+            UiManager.score += 5;
             Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("potion"))

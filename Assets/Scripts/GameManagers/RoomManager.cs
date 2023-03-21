@@ -5,6 +5,7 @@ public class RoomManager : MonoBehaviour
 {
     public GameObject[] Room;
     public PlayerController player;
+    internal bool paused = false;
     private void Awake()
     {
         foreach (GameObject room in Room)
@@ -21,6 +22,15 @@ public class RoomManager : MonoBehaviour
             Room[(int)player.RoomExit].SetActive(false);
             player.roomChanged = false;
         }
+
+        if (paused)
+        {
+            foreach (GameObject room in Room)
+            {
+                room.SetActive(false);
+            }
+        }
+        else { Room[(int)player.RoomEnter].SetActive(true); }
     }
 }
 public enum RoomNo

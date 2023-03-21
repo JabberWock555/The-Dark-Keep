@@ -15,6 +15,7 @@ TagManager:
   - potion
   - turn1
   - Boss
+  - Princess
   layers:
   - Default
   - TransparentFX
