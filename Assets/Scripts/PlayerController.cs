@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public KeyType key;
     [SerializeField] private Animator animator;
     [SerializeField] private float speed;
     [SerializeField] private float jump;
@@ -125,6 +126,12 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Platform"))
         {
             isGrounded = true;
+        }
+
+        if( collision.gameObject.GetComponent<KeyController>() != null)
+        {
+            KeyController _key = collision.gameObject.GetComponent<KeyController>();
+            key = _key.keyType;
         }
     }
 }
