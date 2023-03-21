@@ -5,15 +5,21 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
+  - turn
+  - Weapon_1
+  - Weapon_2
+  - Spider
+  - Goop
+  - Ghost
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - EnemyZone
   - 
   - 
   - 

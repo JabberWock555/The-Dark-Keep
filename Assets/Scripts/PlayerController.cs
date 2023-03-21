@@ -1,11 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
-{
+{ 
     public KeyType key;
+    public RoomNo RoomEnter;
+    public RoomNo RoomExit;
+    public bool roomChanged = false;
+
     [SerializeField] private Animator animator;
     [SerializeField] private float speed;
     [SerializeField] private float jump;
@@ -73,6 +78,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Land", false);
         }
     }
+
 
     private void HorizontalMovement(float _horizontal)
     {

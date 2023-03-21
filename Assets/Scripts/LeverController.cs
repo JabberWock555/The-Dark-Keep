@@ -34,10 +34,6 @@ public class LeverController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            leverEvent.Invoke();
-        }
         if (inRange)
         {
             if (Input.GetKeyDown(KeyCode.Space))
