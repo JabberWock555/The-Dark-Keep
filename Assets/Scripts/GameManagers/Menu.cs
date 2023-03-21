@@ -1,15 +1,15 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] PlayerController player;
-    [SerializeField] RoomManager roomManager;
-    [SerializeField] GameObject startMenu;
-    [SerializeField] GameObject pauseMenu;
-    [SerializeField] GameObject gameOverMenu;
-    [SerializeField] GameObject gameWinScreen;
+    [SerializeField] private PlayerController player;
+    [SerializeField] private RoomManager roomManager;
+    [SerializeField] private GameObject startMenu;
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject infoScreen;
+    [SerializeField] private GameObject gameOverMenu;
+    [SerializeField] private GameObject gameWinScreen;
 
     private void Awake()
     {
@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour
         pauseMenu.SetActive(false);
         gameOverMenu.SetActive(false);
         gameWinScreen.SetActive(false);
+        infoScreen.SetActive(false);
     }
 
     private void Update()
@@ -51,11 +52,12 @@ public class Menu : MonoBehaviour
 
     public void PlayGame()
     {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
         startMenu.SetActive(false);
         pauseMenu.SetActive(false);
+        DisplayInfo();
         player.gameObject.SetActive(true);
         roomManager.paused = false;
-        SoundManager.Instance.Play(SoundEvents.ButtonClick);
     }
 
     public void QuitGame()
@@ -88,4 +90,17 @@ public class Menu : MonoBehaviour
         gameOverMenu.SetActive(false);
         gameWinScreen.SetActive(false);
     }
+
+    public void DisplayInfo()
+    {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
+        infoScreen.SetActive(true);
+    }
+
+    public void HideInfo()
+    {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
+        infoScreen.SetActive(false);
+    }
+
 }

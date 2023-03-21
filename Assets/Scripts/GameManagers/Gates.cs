@@ -44,7 +44,7 @@ public class Gates : MonoBehaviour
                     else
                     {
                         SoundManager.Instance.Play(SoundEvents.DoorLocked);
-                        UiManager.ShowMsg("Wrong Key");
+                        UiManager.ShowMsg("Locked");
                     }
                     break;
 
