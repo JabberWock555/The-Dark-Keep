@@ -15,6 +15,7 @@ public class BossMovement : EnemyMovement
 
     private void Awake()
     {
+        Health = 200;
         animator = GetComponent<Animator>();
     }
 

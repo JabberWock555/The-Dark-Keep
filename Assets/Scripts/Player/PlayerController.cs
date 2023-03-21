@@ -42,10 +42,12 @@ public class PlayerController : MonoBehaviour
         //Player Attack
         if (Input.GetKeyDown(KeyCode.Z))
         {
+            SoundManager.Instance.Play(SoundEvents.Attack);
             animator.SetTrigger("Attack1");
         }
         else if (Input.GetKeyDown(KeyCode.X))
         {
+            SoundManager.Instance.Play(SoundEvents.Attack);
             animator.SetTrigger("Attack2");
         }
     }
@@ -62,12 +64,14 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetBool("Jump", true);
                 rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
+                SoundManager.Instance.Play(SoundEvents.Jump);
             }
             else if (!isGrounded && doubleJump)
             {
                 animator.SetBool("Jump", true);
                 rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
-               doubleJump = false;
+                SoundManager.Instance.Play(SoundEvents.Jump);
+                doubleJump = false;
             }
         }
         else if (!isGrounded && !_vertical)
@@ -100,6 +104,7 @@ public class PlayerController : MonoBehaviour
             scale.x = Mathf.Abs(scale.x);
         }
         transform.localScale = scale;
+        SoundManager.Instance.Play(SoundEvents.Run);
     }
 
     public void TakeHit(int damage)
@@ -108,10 +113,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger("Hurt");
             Health -= damage;
-
+            SoundManager.Instance.Play(SoundEvents.Hurt);
             if (Health <= 0)
             {
                 animator.SetBool("IsAlive", false);
+                SoundManager.Instance.Play(SoundEvents.Dead);
                 enabled = false;
             }
         }
@@ -137,18 +143,21 @@ public class PlayerController : MonoBehaviour
         {
             KeyController _key = collision.gameObject.GetComponent<KeyController>();
             key = _key.keyType;
+            SoundManager.Instance.Play(SoundEvents.CoinCollected);
         }
 
         if (collision.CompareTag("coin"))
         {
             Debug.Log("Coin Collected");
             UiManager.score += 5;
+            SoundManager.Instance.Play(SoundEvents.CoinCollected);
             Destroy(collision.gameObject);
         }
         else if (collision.CompareTag("potion"))
         {
             if (Health < 86)
             {
+                SoundManager.Instance.Play(SoundEvents.PotionCollected);
                 Health += 15;
                 Destroy(collision.gameObject);
             }

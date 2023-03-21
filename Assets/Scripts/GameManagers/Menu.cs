@@ -20,6 +20,7 @@ public class Menu : MonoBehaviour
         gameOverMenu.SetActive(false);
         gameWinScreen.SetActive(false);
     }
+
     private void Update()
     {
         if (player.win)
@@ -34,6 +35,7 @@ public class Menu : MonoBehaviour
 
     private void GameOver()
     {
+        SoundManager.Instance.Play(SoundEvents.GameOver);
         player.gameObject.SetActive(false);
         roomManager.paused = true;
         gameOverMenu.SetActive(true);
@@ -41,6 +43,7 @@ public class Menu : MonoBehaviour
 
     private void GameWin()
     {
+        SoundManager.Instance.Play(SoundEvents.GameWin);
         player.gameObject.SetActive(false);
         roomManager.paused = true;
         gameWinScreen.SetActive(true);
@@ -52,15 +55,18 @@ public class Menu : MonoBehaviour
         pauseMenu.SetActive(false);
         player.gameObject.SetActive(true);
         roomManager.paused = false;
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
     }
 
     public void QuitGame()
     {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
         Application.Quit();
     }
 
     public void PauseGame()
     {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
         player.gameObject.SetActive(false);
         roomManager.paused = true;
         pauseMenu.SetActive(true);
@@ -68,11 +74,14 @@ public class Menu : MonoBehaviour
 
     public void RestartGame()
     {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
         SceneManager.LoadScene(0);
         PlayerPrefs.DeleteAll();
     }
+
     public void ExitGame()
     {
+        SoundManager.Instance.Play(SoundEvents.ButtonClick);
         PlayerPrefs.DeleteAll();
         startMenu.SetActive(true);
         pauseMenu.SetActive(false);

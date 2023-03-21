@@ -19,6 +19,7 @@ public class EnemyDeath : MonoBehaviour
     {
         ParticleSystem.MainModule main= Death.main;
         Death.transform.position = enemy_.transform.position;
+        SoundManager.Instance.Play(SoundEvents.EnemyDeath);
         if (enemy_.CompareTag("Spider"))
         {
             SpwanCollectibles(coin, enemy_.transform);   
