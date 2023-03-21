@@ -150,7 +150,8 @@ public enum GatesNo
     Gate6,
     Gate7,
     Gate8,
-    Gate9
+    Gate9,
+    Prison
 }
 
 public enum GateType

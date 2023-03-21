@@ -10,8 +10,6 @@ public class EnemyDeath : MonoBehaviour
     [SerializeField] private Color SpiderColor;
     [SerializeField] private Color GoopColor;
     [SerializeField] private KeyController keys;
-    private GameObject _coin;
-    private GameObject _potion;
 
     private void Awake()
     {
@@ -32,6 +30,11 @@ public class EnemyDeath : MonoBehaviour
             main.startColor = GoopColor;
         }
         else if (enemy_.CompareTag("Ghost"))
+        {
+            keys.gameObject.transform.position = enemy_.transform.position; ;
+            keys.gameObject.SetActive(true);
+        }
+        else if (enemy_.CompareTag("Boss"))
         {
             keys.gameObject.transform.position = enemy_.transform.position; ;
             keys.gameObject.SetActive(true);

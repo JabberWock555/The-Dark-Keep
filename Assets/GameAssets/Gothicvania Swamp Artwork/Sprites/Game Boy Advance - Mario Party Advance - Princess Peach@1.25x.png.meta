@@ -1,0 +1,3270 @@
+fileFormatVersion: 2
+guid: b0441c95a0ee04f39857bc620f7e215d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 361
+        width: 201
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18346c8a816714333b00654646d5a764
+      internalID: -1768732450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07d7511b47146eea783e9ceb1a20d6
+      internalID: 340627876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 346
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fafee985eb0f446490d2ea1b4921120
+      internalID: -829050422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 347
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69b556882b149e29ff52a27e2a84d5
+      internalID: -115052046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 346
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d3d5ffca744e24b380b380ce49c06
+      internalID: 348324609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 346
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed0d8cb6c59a408f93c5c4811294419
+      internalID: 1370591326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 345
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7802e04a0d75f41978f7ebe4d200e51a
+      internalID: -2074706363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 346
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495c6d00d426f4ca88c404f7a248d402
+      internalID: -1144824397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 345
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eeac62773834ac5ac45ab83eaaa577
+      internalID: -1223223251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 346
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bcf49b8da404456970c77f625842f0
+      internalID: 1893532936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 346
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e074a21e1b82e469999e5bb3340d16c2
+      internalID: -1003600615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 346
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e70c9305e56c4601be75aa544274a15
+      internalID: 1294123380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 345
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9de14b983ad437a8f0134690c7a530
+      internalID: -1881103974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 346
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f464ee6f077824462ba953112f6eaada
+      internalID: 1679142739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 346
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324f006a553748248fc04aa7f1769e1
+      internalID: 306046578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_15
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 345
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71155b681b1ea4228aa387806806353c
+      internalID: -1523333580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_16
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 345
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a91b30bdcf1643cfaf4534c53a53d2c
+      internalID: -1844787774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 346
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c675b756e72e4df89a33b111c41d192
+      internalID: -818568641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_18
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 345
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d05285ed6054635af0a0da88dbfbff
+      internalID: -779600481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 293
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55988ba53a904d0cb725ab032a3b3dd
+      internalID: -1949883099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 293
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3da9e11b539f4ced9c3579a8c7573c5
+      internalID: -156888522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 293
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1554eb7da354a4e88a3b81aa87c22f
+      internalID: -1195273903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 293
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b69e04a1b0046b4882ccf273151d79
+      internalID: 454851164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 293
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50380afdf02304911a389d1618ef72ed
+      internalID: -1375818774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 293
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11df6a9f541c6498c9eaa2b2ee391b44
+      internalID: -340879174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 295
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddafa5b475c64d65b08b318b013a0fd
+      internalID: 1040101158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 293
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719048564c9f7460885e67bb15c94e7c
+      internalID: -294794882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 293
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212055b76c364452b869083757068aea
+      internalID: 2005589950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 295
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c36492057794c30ac3145fda788084
+      internalID: -1262692525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 293
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265833e40020a4a8194360ec64adcb08
+      internalID: 1247099137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_30
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 295
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2caf079813a446069390288ad466174
+      internalID: -1871115392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_31
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 293
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e367a946172458d8184b1b641fb685
+      internalID: 1680770261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_32
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 293
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae2b51da4ad1441e96925e60db57660
+      internalID: -2135752993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_33
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 291
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aa8702b3482479b9cc5246fa1cb544
+      internalID: 1253464736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_34
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 305
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a354d3e3964d1446ebd6f0533d4df8c3
+      internalID: 1897758526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d87ef659324a6bb234b8e7c52d4c0
+      internalID: 28663455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af959ea3c06a8467a9b744aae7644680
+      internalID: -1460961678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 241
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a458f4402e9e468fa6c5803356261a3
+      internalID: -638000611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 241
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13295aca260f4d5ca4cb00eb2d998b8
+      internalID: -1659307249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_39
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 241
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f6997996d614f8aafcfec34ff900b2
+      internalID: 1696265556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 241
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40fa0ca95b1a400cb439180f778966b
+      internalID: 1181699878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_41
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 242
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717829324a8eb4424a364ba7635cf73f
+      internalID: 955678989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_42
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 241
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2bbce798124ee4bfcef8730680f8f
+      internalID: -40094124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_43
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 241
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf85ad43730b04a46a4003cdc489d93b
+      internalID: -3704823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_44
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 242
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33270d285e8d4635a35f5e22fa44fa5
+      internalID: -1380939223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 241
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60950ad6fc44d4dad8b70e55a8684656
+      internalID: 1611138314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_46
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 241
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b11d0bca2a0b4855a0a5d629e49d81a
+      internalID: -173015461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_47
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 241
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db4a8ef053024910b27918b80de9aa7
+      internalID: 27934181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_48
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 236
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456ac80737c8640a8b448f73f752ba4a
+      internalID: 1366604968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_49
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 276
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a6fdcf280a497daf9f13ebf4bf328
+      internalID: -1670457337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_50
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 276
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c80e83a03cd4ba58c468f7838e1566
+      internalID: -297232677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_51
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 276
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1074da4ea52df441aaa9cfc3726e6965
+      internalID: 734647914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_52
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 276
+        width: 49
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1513ebe3a8dab4cdab78324ab2d62d39
+      internalID: 1303994998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 241
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04190262e8c464a5a91c1804191d9d45
+      internalID: 1674931821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_54
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 245
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a278bbf7ec6942c08c46c61c373b9da
+      internalID: 1205439358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_55
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 188
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd07f21f4eb4d53b20124917a7bdc2
+      internalID: -617388640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 188
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bce2beaff20d4807a01688ff6c5bafd
+      internalID: 1880724470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 188
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14929c5d5aacc4546afe8313e99c4979
+      internalID: -712010360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 188
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05b8ace13438454781b072ad0212de6
+      internalID: 1353377057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_59
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 188
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacf26b97a7b34c8e94b81961ac91b07
+      internalID: -1297519886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_60
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 188
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51563e137f20541d7b25efd54d242749
+      internalID: -155411823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 190
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f6a5f44e492491f9672ee793a3a4cc
+      internalID: 903314023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 188
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6864e66df0144829f9fd1c30ba653b
+      internalID: -1761809325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_63
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 188
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd6a432bf8c84184a279c9a1d9ca63c
+      internalID: -2030996572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_64
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 190
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b15d625331e140458051013b3397003
+      internalID: -1624683668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_65
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 190
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f1aca244c6d470b83942b97c74bb06
+      internalID: -1695305310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_66
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 188
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849f8e927283c40608799b39d7426ff3
+      internalID: -1115670118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_67
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 188
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaff40210fed4cab922881ec931517f
+      internalID: -285957986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_68
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 181
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678d8f1aa3362439794d0fdb7cfa5f5e
+      internalID: -616998336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_69
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 215
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e644d3c31e2a4d1ca119e7a79f8f853
+      internalID: -1526284632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_70
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 215
+        width: 49
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85530468175554751a5d59ae71e3fb42
+      internalID: 831426643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_71
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 213
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd91296ad7f83462c868409f6d594848
+      internalID: -106332466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_72
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 188
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9df12c0230f94178a51cbf088e68d1a
+      internalID: 1555770014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_73
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 167
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00422e87a6f33418da7cf56542d9a334
+      internalID: -114780121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_74
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 167
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b301b854b34d49299f912e9be96e825
+      internalID: 1248194122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_75
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 190
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52028e94d916e4202b2250bbee2254b2
+      internalID: -1614369400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_76
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 188
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab898eb85010145618e60826dd629452
+      internalID: 1259593823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_77
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 188
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd2f729a0bd2464f9b0a17474258398
+      internalID: 2079851377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_78
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 188
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a658e661016441c1a52a3fa7dbe51cd
+      internalID: -1660742709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_79
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 188
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df65f698967554453b8c1205791ca83a
+      internalID: -1687047952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_80
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 188
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06923dd6b65b24e41aab2b36e9c2a6e4
+      internalID: 502448328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f304e62d155c4489e844cb1fba64d624
+      internalID: -64520497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_82
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce902f69186948798680b9a2bb431a0
+      internalID: 1799144901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_83
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 136
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe91d8273be5469b970d7379bfd1cd8
+      internalID: 901448163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_84
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 136
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648a67a66ca1245cbb2773822baeeb60
+      internalID: -487341371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 136
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de1183714a734300bb5de8eba3bf75b
+      internalID: 736899052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 136
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c828a22fff214ef485549789cb6ad06
+      internalID: -282155032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_87
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 137
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f259bdbc30c4fe2ac1088556b3d9a2
+      internalID: -350193144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_88
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 136
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d733b5171b5148c4b061a48c9a26eb9
+      internalID: 1269766362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_89
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 136
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397dd9e119d2b456699a48b4e8bb02e3
+      internalID: 2000978646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_90
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d0e1d2332324149be292a4b8517db5
+      internalID: 2128014171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_91
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 136
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3842083d0c9dc4631bc5a2e34177045b
+      internalID: -1543231210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_92
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 135
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb1588ed971d47bd85bbc66c508c1c8
+      internalID: -837631505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_93
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 177
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879bca4a5cba2461683369ca4d9cb464
+      internalID: 1903419239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_94
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 177
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49356a76305794f969e7637ef29c89d3
+      internalID: 2047311046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_95
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 177
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dba913f97c334c14a19775fae376685
+      internalID: -1349626951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_96
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 177
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbcc6174d57e4ef2a523e19718bb856
+      internalID: 560833905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_97
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 177
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546822bb566874a9caaf9b17af69cd4a
+      internalID: -1140500574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_98
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 177
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0445b275e497d42fc840289e0b3f5151
+      internalID: 2056544066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_99
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 177
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a196e8c50a194c5e89c7c05e58d00f8
+      internalID: -1640051686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_100
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 177
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6579bbb76489f489d8ef80e88947d7f8
+      internalID: -1998505175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_101
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 136
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe6a9c2b39d04e8386299dfe0e0de5b
+      internalID: -621926459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_102
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 135
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef04a34bfdf4bddb60c29d4c677b1b
+      internalID: -275494547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_103
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 121
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2d510b234b3484d8a882bca9dca4d7
+      internalID: -1903685604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_104
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 121
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc774f9a97c847489a3c0b854c54859
+      internalID: 432731404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_105
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 121
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5170ec4828f4e46b1bff0e78a45c35b5
+      internalID: -480043964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_106
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 140
+        width: 50
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17819f7919d684263b5d6e91feab3d7a
+      internalID: -1876416852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_107
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 141
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152f784872e5f4f328e93d57e555de9b
+      internalID: 1833428590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_108
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 141
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1014b0c7a05ce412883e9b7ebea25290
+      internalID: -1889942308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_109
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 141
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79426457be077447d8b880b7425a7d6c
+      internalID: -1963467187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_110
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 83
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc42c1830d52747b8b56c1a116c0d395
+      internalID: -1510527691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_111
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 83
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ee4291d5a1d41368f86dc9c028617d
+      internalID: -1545651096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_112
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 83
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a2aed829a7342e1896a3f2efbb4d21
+      internalID: -715195790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_113
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 83
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462affb2f7e444544b1e496b2bbb5938
+      internalID: -617933395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_114
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 83
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71054e9e1ebf7421da2dbb31c5eee7ba
+      internalID: -1975731585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_115
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 83
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd1296492dc84838969bdd2ef125f6f
+      internalID: 1699560594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_116
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 85
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a772c058dd49509b7c0ea5d658ce7
+      internalID: 1390931875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_117
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 83
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f832ec096812f4977b45157c9fd751cf
+      internalID: -622374969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_118
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 83
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb6101f354cd40198b2065bb01571ab
+      internalID: 1048749721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_119
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 85
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792d5e027df20467f8b5bfa604e72ae5
+      internalID: -128199769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_120
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 83
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690f6bc4375754767ba885885b1fdeb8
+      internalID: -1228252269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_121
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 83
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb22b3249bf4dc686704a4dd009734
+      internalID: -82243526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_122
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 83
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eb1bc022be44bd5b27f99b1aba14a8
+      internalID: 1004483077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_123
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 83
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38df2b788b39470bb5f91e17b0a90b6
+      internalID: -649259326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_124
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 86
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2615cf4f074fe7a4e0102e3f9796a
+      internalID: -1530313334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_125
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 86
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887315d6e26eb45658f4f85e9e73a6fe
+      internalID: -761903258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_126
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 60
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abadaed8d2f7474b89e591a3d075715
+      internalID: -1038252636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_127
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 59
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6869959c59fcd40f0bd5cc8421cc5b10
+      internalID: -1089458831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_128
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 59
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dae02448847c4056a7a508b6e5da28c
+      internalID: -768334773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_129
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 0
+        width: 166
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644081d2bd119475889157276e3bf1f5
+      internalID: 931790051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_130
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 56
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3f75fd917c40db9e57367d5a5bd95
+      internalID: 448271758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_131
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 56
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fff8ce8fbab4feba7d5ffe4f566107
+      internalID: -1365764459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_132
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 56
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031cd6b749a0349b8829b0aab0dda707
+      internalID: -886501785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_133
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 56
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28704194e30d9438fbfb6b9789de8ed2
+      internalID: 169691383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_134
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1c5ff18b604dcfa0d27224377bd0d
+      internalID: 2053518243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_135
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 4
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8a61b47ca2143b2af4bd7987d41a06
+      internalID: 1873279155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_136
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 4
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf3a434532ea44f5bf705f2bc39c7d7
+      internalID: -288935413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_137
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77e7036be52f4ed68198c55d353ee63
+      internalID: -1342016540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_138
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 4
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a6b33fc0c24dbf8363537ea02875b
+      internalID: 1925878244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_139
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67f08d7f748f4b9eab31eb9ebb0a3c1
+      internalID: 1946223268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_140
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c34f87b58c54504b66e04d27d6b83e
+      internalID: -262343198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b921783288214fb4b76ffbe385bcf6c
+      internalID: 1153976721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_35: 28663455
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_54: 1205439358
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_23: -1375818774
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_69: -1526284632
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_140: -262343198
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_126: -1038252636
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_24: -340879174
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_80: 502448328
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_78: -1660742709
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_120: -1228252269
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_101: -621926459
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_125: -761903258
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_62: -1761809325
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_7: -1144824397
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_77: 2079851377
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_112: -715195790
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_110: -1510527691
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_117: -622374969
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_123: -649259326
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_135: 1873279155
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_38: -1659307249
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_32: -2135752993
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_131: -1365764459
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_84: -487341371
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_133: 169691383
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_37: -638000611
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_136: -288935413
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_47: 27934181
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_119: -128199769
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_90: 2128014171
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_127: -1089458831
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_45: 1611138314
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_60: -155411823
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_114: -1975731585
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_138: 1925878244
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_33: 1253464736
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_52: 1303994998
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_0: -1768732450
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_56: 1880724470
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_11: 1294123380
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_95: -1349626951
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_42: -40094124
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_64: -1624683668
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_75: -1614369400
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_87: -350193144
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_104: 432731404
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_128: -768334773
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_106: -1876416852
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_130: 448271758
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_72: 1555770014
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_59: -1297519886
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_61: 903314023
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_46: -173015461
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_132: -886501785
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_100: -1998505175
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_1: 340627876
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_86: -282155032
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_97: -1140500574
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_55: -617388640
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_63: -2030996572
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_85: 736899052
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_31: 1680770261
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_94: 2047311046
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_141: 1153976721
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_36: -1460961678
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_105: -480043964
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_29: 1247099137
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_53: 1674931821
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_113: -617933395
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_48: 1366604968
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_65: -1695305310
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_109: -1963467187
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_111: -1545651096
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_6: -2074706363
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_83: 901448163
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_103: -1903685604
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_14: 306046578
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_8: -1223223251
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_82: 1799144901
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_2: -829050422
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_118: 1048749721
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_58: 1353377057
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_71: -106332466
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_116: 1390931875
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_79: -1687047952
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_10: -1003600615
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_34: 1897758526
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_30: -1871115392
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_26: -294794882
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_49: -1670457337
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_137: -1342016540
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_40: 1181699878
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_17: -818568641
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_18: -779600481
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_4: 348324609
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_19: -1949883099
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_41: 955678989
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_122: 1004483077
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_99: -1640051686
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_96: 560833905
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_39: 1696265556
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_76: 1259593823
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_81: -64520497
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_108: -1889942308
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_3: -115052046
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_70: 831426643
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_66: -1115670118
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_107: 1833428590
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_25: 1040101158
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_91: -1543231210
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_93: 1903419239
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_5: 1370591326
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_124: -1530313334
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_102: -275494547
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_67: -285957986
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_89: 2000978646
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_129: 931790051
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_88: 1269766362
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_134: 2053518243
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_68: -616998336
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_22: 454851164
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_12: -1881103974
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_21: -1195273903
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_44: -1380939223
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_15: -1523333580
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_43: -3704823
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_50: -297232677
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_92: -837631505
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_115: 1699560594
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_51: 734647914
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_121: -82243526
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_16: -1844787774
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_20: -156888522
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_139: 1946223268
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_57: -712010360
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_13: 1679142739
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_74: 1248194122
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_27: 2005589950
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_73: -114780121
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_28: -1262692525
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_98: 2056544066
+      Game Boy Advance - Mario Party Advance - Princess Peach@1.25x_9: 1893532936
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
