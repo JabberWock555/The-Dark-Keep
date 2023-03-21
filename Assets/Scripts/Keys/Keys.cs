@@ -18,18 +18,21 @@ public class Keys : MonoBehaviour
         return lever.gateNo ;
     }
 }
+
 [Serializable]
 public class KeyManager
 {
     public KeyType key;
     public GatesNo gateNo;
 }
+
 [Serializable]
 public class LeverManager
 {
     public LeverType lever;
     public GatesNo gateNo;
 }
+
 public enum KeyType
 {
     Key_Gate0,
@@ -37,6 +40,7 @@ public enum KeyType
     Key_Gate2,
     Key_Prison
 }
+
 public enum LeverType
 {
     Lever_Gate2,

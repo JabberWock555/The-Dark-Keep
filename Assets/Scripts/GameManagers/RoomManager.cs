@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class RoomManager : MonoBehaviour
@@ -6,6 +5,7 @@ public class RoomManager : MonoBehaviour
     public GameObject[] Room;
     public PlayerController player;
     internal bool paused = false;
+
     private void Awake()
     {
         foreach (GameObject room in Room)
@@ -14,6 +14,7 @@ public class RoomManager : MonoBehaviour
         }
         Room[0].SetActive(true);
     }
+
     private void Update()
     {
         if (player.roomChanged)
@@ -33,6 +34,7 @@ public class RoomManager : MonoBehaviour
         else { Room[(int)player.RoomEnter].SetActive(true); }
     }
 }
+
 public enum RoomNo
 {
     Room0,

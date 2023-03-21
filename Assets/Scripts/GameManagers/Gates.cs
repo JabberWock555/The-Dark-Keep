@@ -23,6 +23,7 @@ public class Gates : MonoBehaviour
             SetGateStatus(gate.gateNo, GateStatus.Locked);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == player.gameObject )
@@ -33,35 +34,44 @@ public class Gates : MonoBehaviour
                     if (player.key == keyManager.GetKeyType(GetGateNo()))
                     {
                         UiManager.keyUsed = true;
+                        SoundManager.Instance.Play(SoundEvents.DoorOpen);
                         SetGateStatus(gate.gateNo, GateStatus.Open);
                         StartCoroutine(Transport());
+                        SoundManager.Instance.Play(SoundEvents.Travel);
                         ChangeRoom(GetGateNo());
                         UiManager.ShowMsg("Gate Opened");
                     }
                     else
                     {
-                        UiManager.ShowMsg("Wrong Key");
+                        SoundManager.Instance.Play(SoundEvents.DoorLocked);
+                        UiManager.ShowMsg("Locked");
                     }
                     break;
 
                 case GateType.LeverGate:
                     if(GetGateStatus(gate.gateNo) == GateStatus.Open)
                     {
+                        SoundManager.Instance.Play(SoundEvents.DoorOpen);
                         StartCoroutine(Transport());
+                        SoundManager.Instance.Play(SoundEvents.Travel);
                         ChangeRoom(GetGateNo());
                     }
                     else
                     {
+                        SoundManager.Instance.Play(SoundEvents.DoorLocked);
                         UiManager.ShowMsg("Open with Lever");
                     }
                     break;
 
                 case GateType.none:
+                    SoundManager.Instance.Play(SoundEvents.DoorOpen);
                     SetGateStatus(gate.gateNo, GateStatus.Open);
+                    SoundManager.Instance.Play(SoundEvents.Travel);
                     StartCoroutine(Transport());
                     ChangeRoom(GetGateNo());
                     break;
                 default:
+                    SoundManager.Instance.Play(SoundEvents.DoorLocked);
                     UiManager.ShowMsg("Locked");
                     break;
             }
@@ -91,6 +101,7 @@ public class Gates : MonoBehaviour
     {
         PlayerPrefs.SetInt(_gateNo.ToString(), (int)_gateStatus);
     }
+
     public void ChangeRoom(GatesNo exitGate)
     {
         switch (exitGate)

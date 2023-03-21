@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BossMovement : EnemyMovement
@@ -15,6 +14,7 @@ public class BossMovement : EnemyMovement
 
     private void Awake()
     {
+        Health = 200;
         animator = GetComponent<Animator>();
     }
 
