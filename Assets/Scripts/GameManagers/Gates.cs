@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gates : MonoBehaviour 
 {
-    [SerializeField]private PlayerController player;
+    [SerializeField] private PlayerController player;
     [SerializeField] private Keys keyManager;
     private Animator animator;
 
@@ -24,6 +24,7 @@ public class Gates : MonoBehaviour
                 case GateType.KeyGate:
                     if (player.key == keyManager.GetKeyType(GetGateNo()))
                     {
+                        UiManager.keyUsed = true;
                         SetGateStatus(gate.gateNo, GateStatus.Open);
                         StartCoroutine(Transport());
                         ChangeRoom(GetGateNo());

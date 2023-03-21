@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class KeyController : MonoBehaviour
 {
     public KeyType keyType;
-    [SerializeField] private Image keyHolder;
+    [SerializeField] private UiManager UI;
     private Sprite img;
 
     private void Awake()
@@ -17,11 +17,9 @@ public class KeyController : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<PlayerController>() != null)
         {
-            keyHolder.sprite = img;
+            UI.KeyCollected(img);
             Destroy(gameObject);
         }
         
     }
-
-   
 }

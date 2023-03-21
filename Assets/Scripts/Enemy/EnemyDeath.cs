@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class EnemyDeath : MonoBehaviour
 {
+    [SerializeField] private GameObject coin;
+    [SerializeField] private GameObject potion;
     [SerializeField] private ParticleSystem Death;
     [SerializeField] private Color SpiderColor;
     [SerializeField] private Color GoopColor;
-    [SerializeField] private List<KeyController> keys;
-
-    private int i = 0;
+    [SerializeField] private KeyController keys;
+    private GameObject _coin;
+    private GameObject _potion;
 
     private void Awake()
     {
@@ -21,19 +23,25 @@ public class EnemyDeath : MonoBehaviour
         Death.transform.position = enemy_.transform.position;
         if (enemy_.CompareTag("Spider"))
         {
+            SpwanCollectibles(coin, enemy_.transform);   
             main.startColor = SpiderColor;
         }
         else if (enemy_.CompareTag("Goop"))
         {
+            SpwanCollectibles(potion, enemy_.transform);
             main.startColor = GoopColor;
         }
         else if (enemy_.CompareTag("Ghost"))
         {
-            keys[i].gameObject.transform.position = enemy_.transform.position; ;
-            keys[i].gameObject.SetActive(true);
-            keys.RemoveAt(i);
+            keys.gameObject.transform.position = enemy_.transform.position; ;
+            keys.gameObject.SetActive(true);
         }
         Death.gameObject.SetActive(true);
         Destroy(enemy_);
+    }
+
+    private void SpwanCollectibles(GameObject objectToSpwan, Transform enemyTransform)
+    {
+        GameObject newCollectible = Instantiate(objectToSpwan, enemyTransform.position, enemyTransform.rotation, enemyTransform.parent);
     }
 }

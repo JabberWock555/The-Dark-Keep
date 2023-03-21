@@ -2,33 +2,36 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
-{ 
-    public KeyType key;
-    public RoomNo RoomEnter;
-    public RoomNo RoomExit;
-    public bool roomChanged = false;
+{
+    public int Health { get; set; }
+    public int Score { get; set; }
 
     [SerializeField] private Animator animator;
     [SerializeField] private float speed;
     [SerializeField] private float jump;
-    [SerializeField] private Slider healthBar;
 
     private Rigidbody2D rb;
-    private int health = 100;
     private float horizontal;
     private bool vertical;
     private bool doubleJump;
     private bool isGrounded = true;
 
+    [HideInInspector] public KeyType key;
+    [HideInInspector] public RoomNo RoomEnter;
+    [HideInInspector] public RoomNo RoomExit;
+    [HideInInspector] public bool roomChanged = false;
+
     private void Awake()
     {
+        Score = 0;
+        Health = 100;
         rb = GetComponent<Rigidbody2D>();
         animator.SetBool("IsAlive", true);
 
     }
+
     private void Update()
     {
         //Player Run
@@ -79,7 +82,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private void HorizontalMovement(float _horizontal)
     {
 
@@ -103,13 +105,12 @@ public class PlayerController : MonoBehaviour
 
     public void TakeHit(int damage)
     {
-        if (health > 0)
+        if (Health > 0)
         {
             animator.SetTrigger("Hurt");
-            health -= damage;
-            healthBar.value = health;
+            Health -= damage;
 
-            if (health <= 0)
+            if (Health <= 0)
             {
                 animator.SetBool("IsAlive", false);
                 enabled = false;
@@ -117,7 +118,6 @@ public class PlayerController : MonoBehaviour
         }
        
     }
-
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -138,6 +138,21 @@ public class PlayerController : MonoBehaviour
         {
             KeyController _key = collision.gameObject.GetComponent<KeyController>();
             key = _key.keyType;
+        }
+
+        if (collision.CompareTag("coin"))
+        {
+            Debug.Log("Coin Collected");
+            Score += 5;
+            Destroy(collision.gameObject);
+        }
+        else if (collision.CompareTag("potion"))
+        {
+            if (Health < 86)
+            {
+                Health += 15;
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
