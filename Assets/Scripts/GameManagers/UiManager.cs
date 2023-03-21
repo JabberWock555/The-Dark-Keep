@@ -9,6 +9,7 @@ public class UiManager : MonoBehaviour
     public static bool keyUsed;
     public static bool showText;
     public static string msg;
+    public static int score;
 
     [SerializeField] private PlayerController player;
     [SerializeField] private BossMovement boss;
@@ -16,16 +17,19 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Slider bossHealthBar;
     [SerializeField] private GameObject bottomPanel;
     [SerializeField] private Text msgBox;
+    [SerializeField] private Text ScoreDisplay;
     [SerializeField] private Image keyHolder;
 
     private void Awake()
     {
         bottomPanel.SetActive(false);
+        score = 0; 
     }
 
     private void Update()
     {
         playerHealthBar.value = player.Health;
+        ScoreDisplay.text = "Score : " + score;
 
         if (player.RoomEnter == RoomNo.Room5)
         {
