@@ -45,6 +45,22 @@ Your main objective in the game is to save the Princess from the Monster that ha
 
 - <img width="1512" alt="Screenshot 2023-03-22 at 3 43 44 PM" src="https://user-images.githubusercontent.com/97807224/226876991-f393dce8-a58e-42bd-b668-19dbca44c225.png">
 
+### **GamePlay**
+- ![1](https://user-images.githubusercontent.com/97807224/226996549-66e0751a-92ab-4d31-b8c3-82b5b4325541.gif)
+
+- ![2](https://user-images.githubusercontent.com/97807224/226996698-c5feaf48-d0a4-44d4-ad9a-3008ec84d800.gif)
+
+- ![3](https://user-images.githubusercontent.com/97807224/226996688-67307568-9d4e-4c0d-b4cc-b8dfac40c698.gif)
+
+-  ![4](https://user-images.githubusercontent.com/97807224/226996625-c0dc0623-159d-4718-81a3-4617fb44e221.gif)
+
+- ![5](https://user-images.githubusercontent.com/97807224/226996702-35ee399f-a07e-4db4-9d6a-55d3700c3fb4.gif)
+
+- ![6](https://user-images.githubusercontent.com/97807224/226996709-02db5005-ec09-48db-b646-08cf1ab3c0de.gif)
+
+- ![7](https://user-images.githubusercontent.com/97807224/226996719-98b8d369-098d-4979-979f-b71c61c0c53e.gif)
+
+
 ### **Credits**
 
 This game was developed by Aayush Gupta and inspired by classic platformers. Thanks for playing!
