@@ -1,34 +1,34 @@
-### **The Dark Keep**
+## **The Dark Keep**
 
 Welcome to "The Dark Keep" - a 2D platformer game where you must save the Princess from the Monster that has imprisoned her in its Castle. In this game, you will encounter enemies, traps, and puzzles that you must overcome to reach your goal.
 
 [Play](https://jabberwock-studio.itch.io/the-dark-keep)
 
-### **How to Play**
+## **How to Play**
 
 - Use the WASD or Arrow Keys to move and jump.
 - To attack with a sword, use the Z key.
 - To attack with a spear, use the X key.
 - Use the Spacebar to interact with objects.
 
-### **Objective**
+## **Objective**
 
 Your main objective in the game is to save the Princess from the Monster that has imprisoned her in its Castle. To do this, you must defeat the Monster and collect the key to the Princess's cell. Along the way, you will encounter various enemies and obstacles that you must overcome.
 
-### **Enemies and Rewards**
+## **Enemies and Rewards**
 
 - **SkullSpider**: Defeat these enemies to gain coins.
 - **Goop**: Collect these items to gain a health potion.
 - **Ghost**: Defeat these enemies to gain the key to the Door's in Castle.
 
-### **Controls**
+## **Controls**
 
 - Use the **WASD** or **Arrow** Keys to move and jump.
 - To attack with a sword, use the **Z** key.
 - To attack with a spear, use the **X** key.
 - Use the **Spacebar** to interact with objects.
 
-### **Photos**
+## **Photos**
 - <img width="1512" alt="Screenshot 2023-03-22 at 3 38 03 PM" src="https://user-images.githubusercontent.com/97807224/226876535-f2cca64d-5d35-4750-91c5-992bf07bad46.png">
 
 - <img width="1512" alt="Screenshot 2023-03-22 at 3 38 17 PM" src="https://user-images.githubusercontent.com/97807224/226876564-b8531c79-0598-424d-9c41-bb71cb91c776.png">
@@ -47,7 +47,7 @@ Your main objective in the game is to save the Princess from the Monster that ha
 
 - <img width="1512" alt="Screenshot 2023-03-22 at 3 43 44 PM" src="https://user-images.githubusercontent.com/97807224/226876991-f393dce8-a58e-42bd-b668-19dbca44c225.png">
 
-### **GamePlay**
+## **GamePlay**
 - ![1](https://user-images.githubusercontent.com/97807224/226996549-66e0751a-92ab-4d31-b8c3-82b5b4325541.gif)
 
 - ![2](https://user-images.githubusercontent.com/97807224/226996698-c5feaf48-d0a4-44d4-ad9a-3008ec84d800.gif)
@@ -63,6 +63,6 @@ Your main objective in the game is to save the Princess from the Monster that ha
 - ![7](https://user-images.githubusercontent.com/97807224/226996719-98b8d369-098d-4979-979f-b71c61c0c53e.gif)
 
 
-### **Credits**
+## **Credits**
 
 This game was developed by Aayush Gupta and inspired by classic platformers. Thanks for playing!
