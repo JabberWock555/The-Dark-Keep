@@ -2,7 +2,7 @@
 
 Welcome to "The Dark Keep" - a 2D platformer game where you must save the Princess from the Monster that has imprisoned her in its Castle. In this game, you will encounter enemies, traps, and puzzles that you must overcome to reach your goal.
 
-##[Play](https://jabberwock-studio.itch.io/the-dark-keep)
+[##Play](https://jabberwock-studio.itch.io/the-dark-keep)
 
 ### **How to Play**
 
